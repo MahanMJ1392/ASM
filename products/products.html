@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>مدیریت محصولات</title>
+</head>
+<body>
+    <div id="productAdder">
+        <!-- فرم ورود اطلاعات -->
+        <input placeholder="نام کالا" required  type="text" id="productName">
+        <input placeholder="قیمت کالا" required type="number" id="productPrice">
+        <input placeholder="موجودی در انبار" required type="number" id="productInventory">
+        <button id="submitProductBtn" type="button">ثبت محصول</button>
+        <br/><br/><br/>
+    </div>
+    <div style="margin-top: 20%;">
+        <table id="productResult"></table>
+    </div>
+            
+    <script src="products.js"></script>
+</body>
+</html>
+
+
